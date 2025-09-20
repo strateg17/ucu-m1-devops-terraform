@@ -1,0 +1,26 @@
+# Local terraform directories
+**/.terraform/*
+
+# .tfstate
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tvars files with sensetive data
+*.tfvars
+
+# Ignore all override fiels as they usually used to override resurces locally and so
+# are not checked in 
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignote cli cpnfiguratino files 
+.terraformrc
+terraform.rc 
+.terraform.lock.hcl
+.env_*
+.env
